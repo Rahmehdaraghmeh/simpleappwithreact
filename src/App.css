@@ -1,0 +1,29 @@
+.social-media-links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .social-icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50px; /* تحديد عرض الدائرة */
+    height: 50px; /* تحديد ارتفاع الدائرة */
+    border-radius: 50%; /* جعل الشكل دائرة */
+    background-color: #333; /* لون الخلفية داخل الدائرة */
+    margin: 10px;
+    color: white; /* لون الأيقونة */
+    text-decoration: none;
+    font-size: 24px; /* حجم الأيقونة */
+    transition: background-color 0.3s ease;
+  }
+  
+  .social-icon:hover {
+    background-color: #007bff; /* تغيير لون الخلفية عند التمرير */
+  }
+  
+  .social-icon i {
+    font-size: 24px; /* حجم الأيقونة داخل الدائرة */
+  }
+  
