@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 export default function Navbar() {
   return (
@@ -24,20 +25,20 @@ textTransform:'uppercase'
       >
         <li className="nav-item"
         >
-          <a className="nav-link active" aria-current="page" href="#"
+          <Link className="nav-link active" aria-current="page" to={'/portfolio'}
       style={{color:'white'}}
-      >PORTFOLIO</a>
+      >PORTFOLIO</Link>
         </li>
         <li className="nav-item">
-          <a className="nav-link active" href="#"
+          <Link className="nav-link active" to={'/about'}
       style={{color:'white'}}
-      >ABOUT</a>
+      >ABOUT</Link>
         </li>
         
         <li className="nav-item">
-          <a className="nav-link active" href="#"
+          <Link className="nav-link active" to={'/contact'}
       style={{color:'white'}}
-      >CONTACT</a>
+      >CONTACT</Link>
         </li>
       </ul>
       
